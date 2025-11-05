@@ -41,7 +41,7 @@ Example YOLO annotation:
 1 0.317 0.526 0.146 0.207
 
 yaml
-Copy code
+
 where `0 = Crop` and `1 = Weed`.
 
 ---
@@ -60,7 +60,7 @@ chilli-weed-dataset/
 └── README.md
 
 yaml
-Copy code
+
 
 ---
 
@@ -72,7 +72,7 @@ git clone https://github.com/username/chilli-weed-dataset.git
 cd chilli-weed-dataset
 🔸 Train with YOLOv5 (Example)
 bash
-Copy code
+
 python train.py --data data/chilli.yaml --img 640 --batch 16 --epochs 100 --weights yolov5s.pt
 📊 Benchmark Summary
 Model	mAP@0.5	mAP@0.5:0.95	FPS
@@ -91,14 +91,14 @@ This dataset is released under the Creative Commons Attribution 4.0 Internationa
 You may use and modify the data for academic and non-commercial research, provided proper attribution is given.
 
 java
-Copy code
+
 © 2025 Bhaktavatsala Shivaram et al.,
 
 🧾 Citation
 If you use this dataset or results in your research, please cite:
 
 bibtex
-Copy code
+
 @inproceedings{shivaram2025chilliweed,
   author    = {Bhaktavatsala Shivaram and T. K. Ramesh and J. Kumar},
   title     = {Deep Learning–Based Crop–Weed Detection Framework for Precision Agriculture in Chilli Cultivation},
